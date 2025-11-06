@@ -1,0 +1,22 @@
+Source/obj/
+Source/Properties/
+Binaries/
+Logs/
+Cache/
+Icons/
+Content/Materials
+Content/SceneData
+.vscode
+omnisharp.json
+Convert to Plugin.txt
+Backpack.code-workspace
+Backpack.sln
+Backpack.sln.DotSettings.user
+Content/Scene.scene
+Content/New Item.json
+Content/New Item 3.json
+Content/New Item 2.json
+Content/New Item 1.json
+Content/New Item 0.json
+Content/New Database.json
+Content/Item_DefaultCube.json
