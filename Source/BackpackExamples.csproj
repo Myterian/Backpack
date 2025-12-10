@@ -20,7 +20,7 @@
     <AssemblyName>BackpackExamples.CSharp</AssemblyName>
     <LangVersion>13.0</LangVersion>
     <FileAlignment>512</FileAlignment>
-    <CustomAfterMicrosoftCommonTargets>$(MSBuildThisFileDirectory)..\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets</CustomAfterMicrosoftCommonTargets>
+    <CustomAfterMicrosoftCommonTargets>$(MSBuildThisFileDirectory)..\..\..\Cache\Projects\Flax.Build.CSharp.SkipBuild.targets</CustomAfterMicrosoftCommonTargets>
     <RestorePackages>false</RestorePackages>
     <DisableFastUpToDateCheck>True</DisableFastUpToDateCheck>
   </PropertyGroup>
@@ -29,20 +29,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\x64\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\x64\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -50,20 +50,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\x64\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\x64\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -71,20 +71,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\ARM64\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\ARM64\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\ARM64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\ARM64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -92,20 +92,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\x64\Development\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\x64\Development\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Development\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Development\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\x64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\x64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Development|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -113,20 +113,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\ARM64\Development\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Development\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Development\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\ARM64\Development\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Development\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Development\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\ARM64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\ARM64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Development|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -134,20 +134,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\x64\Release\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Release\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\x64\Release\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\x64\Release\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Release\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\x64\Release\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_RELEASE;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\x64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\x64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Release|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -155,20 +155,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\GameEditorTarget\Windows\ARM64\Release\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Release\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameEditorTarget\Windows\ARM64\Release\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackEditorTarget\Windows\ARM64\Release\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Release\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackEditorTarget\Windows\ARM64\Release\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_RELEASE;PLATFORM_WINDOWS;FLAX_EDITOR;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameEditorTarget\Windows\ARM64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackEditorTarget\Windows\ARM64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Release|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -176,20 +176,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x64\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x64\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -197,20 +197,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x86\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x86\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x86\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x86\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|Win32' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -218,20 +218,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\ARM64\Debug\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Debug\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Debug\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\ARM64\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Debug\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Debug\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEBUG;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\ARM64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\ARM64\Debug\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -239,20 +239,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x64\Development\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Development\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Development\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x64\Development\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Development\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Development\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -260,20 +260,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x86\Development\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Development\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Development\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x86\Development\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Development\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Development\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x86\Development\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x86\Development\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|Win32' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -281,20 +281,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\ARM64\Development\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Development\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Development\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\ARM64\Development\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Development\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Development\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\ARM64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\ARM64\Development\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -302,20 +302,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x64\Release\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Release\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x64\Release\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x64\Release\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Release\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x64\Release\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_RELEASE;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|x64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -323,20 +323,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\x86\Release\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Release\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\x86\Release\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\x86\Release\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Release\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\x86\Release\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_RELEASE;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\x86\Release\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\x86\Release\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|Win32' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -344,29 +344,29 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\GameTarget\Windows\ARM64\Release\</OutputPath>
-    <BaseIntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Release\CSharp\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>..\Cache/Intermediate\GameTarget\Windows\ARM64\Release\CSharp\</IntermediateOutputPath>
+    <OutputPath>..\Binaries\BackpackTarget\Windows\ARM64\Release\</OutputPath>
+    <BaseIntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Release\CSharp\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>..\Cache/Intermediate\BackpackTarget\Windows\ARM64\Release\CSharp\</IntermediateOutputPath>
     <DefineConstants>BUILD_RELEASE;PLATFORM_WINDOWS;FLAX_GAME;FLAX;FLAX_ASSERTIONS;DOTNET_HOST_CORECLR;USE_NETCORE;NET;NET9_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0_OR_GREATER;FLAX_1;FLAX_1_11;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX_1_7_OR_NEWER;FLAX_1_8_OR_NEWER;FLAX_1_9_OR_NEWER;FLAX_1_10_OR_NEWER;FLAX_1_11_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1591</NoWarn>
-    <DocumentationFile>..\Binaries\GameTarget\Windows\ARM64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
+    <DocumentationFile>..\Binaries\BackpackTarget\Windows\ARM64\Release\BackpackExamples.CSharp.xml</DocumentationFile>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|ARM64' ">
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Source\Platforms\DotNet\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="FlaxEngine.CSharp">
-      <HintPath>..\..\..\..\Programme\Flax_1.11\Binaries\Editor\Win64\Development\FlaxEngine.CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Programme\Flax_1.11\Binaries\Editor\Win64\Development\FlaxEngine.CSharp.dll</HintPath>
     </Reference>
     <ProjectReference Include="Backpack.csproj">
-      <Project>{217A529C-8023-4D76-B3FF-2CD7D4D033ED}</Project>
+      <Project>{E8E8F73B-2518-404E-A411-5EB0DDA8FF87}</Project>
       <Name>Backpack</Name>
     </ProjectReference>
   </ItemGroup>
@@ -393,63 +393,63 @@
     <Compile Include="BackpackExamples\Properties\Value\ValueQuery.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Debug|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Development|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Development\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Development\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Development|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Development\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Development\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Release|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Release\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\x64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Release\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\x64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Editor.Windows.Release|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Release\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameEditorTarget\Windows\ARM64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Release\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackEditorTarget\Windows\ARM64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|Win32' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Debug\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Debug\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Debug|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Debug\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Debug\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Development\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Development\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|Win32' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Development\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Development\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Development|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Development\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Development\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Development\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|x64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Release\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\x64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Release\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\x64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|Win32' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Release\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\Win32\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Release\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\Win32\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Game.Windows.Release|ARM64' " >
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Release\Backpack\Backpack.Bindings.Gen.cs" />
-    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\Backpack\Cache\Intermediate\GameTarget\Windows\ARM64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Release\Backpack\Backpack.Bindings.Gen.cs" />
+    <Compile Visible="false" Include="A:\DevEnvironment\!Flax Plugins\BackpackProject\Plugins\Backpack\Cache\Intermediate\BackpackTarget\Windows\ARM64\Release\BackpackExamples\BackpackExamples.Bindings.Gen.cs" />
   </ItemGroup>
 </Project>

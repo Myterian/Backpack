@@ -1,5 +1,7 @@
 Source/obj/
 Source/Properties/
+Source/*.Gen.cs
+Source/*.csproj
 Binaries/
 Logs/
 Cache/

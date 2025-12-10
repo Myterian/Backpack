@@ -15,13 +15,13 @@ public class InventoryManager : GamePlugin
     public static Version PluginVersion => new Version(2, 5, 13);
 
     private List<ItemDatabase> itemDatabases = new();
-    // private Dictionary<string, Inventory> dynamicInventories = new();
 
     public override void Initialize()
     {
         base.Initialize();
 
         // Get all relevant item databases
+        itemDatabases?.Clear();
         Guid[] itemDatabasesIDs = Content.GetAllAssetsByType(typeof(ItemDatabase));
 
         for (int i = 0; i < itemDatabasesIDs.Length; i++)
@@ -38,7 +38,6 @@ public class InventoryManager : GamePlugin
     public override void Deinitialize()
     {
         itemDatabases.Clear();
-        // dynamicInventories.Clear();
         base.Deinitialize();
     }
 
@@ -72,10 +71,12 @@ public class InventoryManager : GamePlugin
             Name = "Backpack - Flax Engine Inventory System",
             Description = "A modular and extenable inventory system",
             Author = "Thomas Jungclaus",
+            AuthorUrl = "https://github.com/Myterian/",
+            RepositoryUrl = "https://github.com/Myterian/Backpack/",
             Category = "Backpack",
             IsAlpha = false,
             IsBeta = false,
-            Version = PluginVersion
+            Version = PluginVersion,
         };
     }
 }

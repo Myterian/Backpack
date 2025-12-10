@@ -40,6 +40,8 @@ public class BackpackEditorPlugin : EditorPlugin
             Name = "Backpack - Editor Stuff",
             Description = "Editor assets and scene icons for Backpack - Flax Engine Inventory System",
             Author = "Thomas Jungclaus",
+            AuthorUrl = "https://github.com/Myterian/",
+            RepositoryUrl = "https://github.com/Myterian/Backpack/",
             Category = "Backpack",
             IsAlpha = false,
             IsBeta = false,

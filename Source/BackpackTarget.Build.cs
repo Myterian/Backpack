@@ -1,13 +1,13 @@
 using Flax.Build;
 
-public class GameEditorTarget : GameProjectEditorTarget
+public class BackpackTarget : GameProjectTarget
 {
     /// <inheritdoc />
     public override void Init()
     {
         base.Init();
 
-        // Reference the modules for editor
+        // Reference the modules for game
         Modules.Add(nameof(BackpackExamples));
         Modules.Add(nameof(Backpack));
     }
